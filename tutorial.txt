@@ -1,0 +1,2 @@
+criar projeto 
+    npx create-next-app@latest
