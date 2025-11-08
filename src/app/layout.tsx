@@ -18,10 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
-      <body
-        className={`${nunito.variable} antialiased font-sans`}
-      >
+    <html lang="pt-BR" suppressHydrationWarning>
+      <body className={cn(nunito.variable, "antialiased font-sans dark")}>
         {children}
       </body>
     </html>
